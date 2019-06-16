@@ -1,0 +1,155 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "职照培训平台",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/train/index",
+			"style": {
+				"navigationBarTitleText": "培训列表",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/train/unitlist",
+			"style": {
+				"navigationBarTitleText": "单元列表",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/train/test",
+			"style": {
+				"navigationBarTitleText": "单元测试"
+			}
+		}, {
+			"path": "pages/technical/index",
+			"style": {
+				"navigationBarTitleText": "技术支持",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/technical/detail",
+			"style": {
+				"navigationBarTitleText": "技术详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/library/index",
+			"style": {
+				"navigationBarTitleText": "文库",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/library/detail",
+			"style": {
+				"navigationBarTitleText": "文库详情",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/work/index",
+			"style": {
+				"navigationBarTitleText": "工作机会",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/work/detail",
+			"style": {
+				"navigationBarTitleText": "工作详情",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/user/register",
+			"style": {
+				"navigationBarTitleText": "个人注册"
+			}
+		}, {
+			"path": "pages/user/message",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "用户中心",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/user/collect",
+			"style": {
+				"navigationBarTitleText": "我的收藏"
+			}
+		}, {
+			"path": "pages/user/resume",
+			"style": {
+				"navigationBarTitleText": "我的简历",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/user/my-class",
+			"style": {
+				"navigationBarTitleText": "我的课程"
+			}
+		}, {
+			"path": "pages/user/edit",
+			"style": {
+				"navigationBarTitleText": "个人信息编辑"
+			}
+		}, {
+			"path": "pages/company/statis",
+			"style": {
+				"navigationBarTitleText": "考试合格率",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "职照培训平台",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
